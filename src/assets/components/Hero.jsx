@@ -21,7 +21,7 @@ const Hero = () => {
                         variants={container(0)}
                         initial="hidden"
                         animate='visible'
-                        className="pb-8 text-5xl font-thin tracking-tight lg:mt-16 lg:text-6xl">
+                        className="pb-8 text-4xl font-thin tracking-tight lg:mt-16 lg:text-6xl">
                             La Pyae Min Khant
                         </motion.h1>
                         <motion.h1 

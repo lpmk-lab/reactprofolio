@@ -1,6 +1,6 @@
 // Navbar Component
 import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa"
-import logo from "../assets/kevinRushLogo.png"
+import logo from "/logo.png"
 import { FaSquareTwitter } from "react-icons/fa6"
 
 const Navbar = () => {

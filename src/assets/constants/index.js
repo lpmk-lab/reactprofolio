@@ -3,63 +3,57 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `As a full-stack developer, I’m passionate about building modern, responsive web solutions that combine clean code with intuitive design, creating seamless user experiences.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `With a strong foundation in both front-end and back-end development, I love turning ideas into real-world applications, paying close attention to detail and ensuring every project is both functional and visually appealing. Whether I’m designing a sleek user interface or optimizing backend processes, I’m always looking for ways to deliver high-quality solutions that solve complex problems.When I’m not coding, you can find me exploring new frameworks, contributing to open-source projects, or seeking opportunities that allow me to grow both personally and professionally.`;
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
+    year: "2024- Present",
+    role: "Freelance Full-Stack Developer",
+    company: "Freelance",
+    description: `As a freelance full-stack developer, I have had the opportunity to work on a wide range of projects, providing end-to-end web development services for clients across different industries. I specialize in building dynamic, responsive applications that meet both technical and business requirements.`,
+    technologies: ["Javascript", "React.js", "Express.js", "mongoDB"],
+  },
+  {
+    year: "2019 - 2024",
     role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    company: "Systematic Business Solution",
+    description: `As a Senior Developer at SBS, I play a leading role in designing, developing, and deploying scalable web applications. I manage the end-to-end development process, from planning and architecture to implementation and optimization, ensuring that our applications meet both business objectives and user needs`,
+    technologies: ["C#", "Angular", "Devexpress", "SSMS"],
   },
   {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
+    year: "2018 - 2019",
+    role: "Junior and Intern Developer",
+    company: "Global Net",
+    description: `During my time at Global Net, I gained valuable experience as both an intern and junior developer, where I honed my skills in web development and collaborative software engineering. I contributed to various projects, including developing and maintaining web applications, debugging code, and optimizing performance for better user experiences.`,
+    technologies: ["Python", "html", "Django", "MySql"],
   },
-  {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
-  },
+
 ];
 
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Point of Sale System (Bankok Air Way)",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "Developed a comprehensive Point of Sale (POS) system for a non-duty-free shop at Samui' airport, designed to streamline transactions and inventory management.",
+    technologies: ["HTML", "CSS", "Angular", "DotNet Core", "SSMS"],
   },
   {
-    title: "Task Management App",
+    title: "Medical Management System(SSB)",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "Spearheaded the development of a Medical Management System for the Social Security Board (SSB), aimed at optimizing the management of medical records, patient services, and administrative workflows",
+    technologies: ["jquery", "Devexpress", "ASP .Net", "SSMS"],
   },
   {
-    title: "Portfolio Website",
+    title: "Enterprise Resource Planning (ERP) system( Lucky Diamond ,Royal Club,San Thaw Dar , Bring (ThaiLand))",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "Developed a versatile Enterprise Resource Planning (ERP) system tailored to meet the diverse needs of multiple clients across various industries. The system was designed to integrate and streamline core business processes, enhancing overall efficiency and data management.",
+    technologies:  ["jquery", "Devexpress", "ASP .Net", "SSMS"],
   },
   {
     title: "Blogging Platform",
@@ -71,24 +65,24 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "488,Ratchathewi Apartment, soi 18 phetchaburi , 18 Alley ,Thanonphetchaburi, Ratchathewi Bangkok 10400",
+  phoneNo: "0619035583",
+  email: "lapyaeminkhant.sbs@gmail.com.com",
 };
 export const EDUCATIONS = [
   {
-    year: "2023 - Present",
-    bachelar: "Senior Full Stack Developer",
-    Uni: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    year: "2013 - 2019",
+    bachelar: "Bachelor of Computer Science",
+    Uni: "University of Computer Studies Yangon",
+    description: `Focused on software development, algorithms, and data structures.Participated in various projects and internships to apply academic knowledge in real-world scenarios.`,
+    technologies: ["DBMS", "Algorithms", "Web Security", "IT"],
   },
   {
-    year: "2023 - Present",
-    bachelar: "Senior Full Stack Developer",
-    Uni: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    year: "2014 - 2015",
+    bachelar: "Advanced Level English",
+    Uni: "Wall Street",
+    description: `Completed advanced coursework in English language, focusing on sophisticated grammar, complex vocabulary, and high-level communication skills.`,
+    technologies: ["Advanced", "Business English"],
   }
   
 ];

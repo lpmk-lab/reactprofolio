@@ -1,6 +1,6 @@
 // Hero Component
 import { HERO_CONTENT } from '../constants'
-import profilePic from "../assets/kevinRushProfile.png"
+import profilePic from "../assets/heroprofile.jpg"
 import { delay, motion } from 'framer-motion'
 const container=(delay)=>({
     hidden:{x:-100,opacity:0},
@@ -47,17 +47,16 @@ const Hero = () => {
                 </div>
                 {/* Profile Picture Section */}
                 <div className='w-full lg:w-1/2 lg:p-8'>
-                    <div className='flex justify-center'>
-                        <motion.img
-                        initial={{x:100,opacity:0}}
-                        animate={{x:0,opacity:1}}
-                        transition={{duration:1,delay:1.2}}
-
-                            src={profilePic}
-                            alt='La Pyae Min Khant'
-                            className='w-64 h-64 object-cover lg:w-72 lg:h-72'
-                        />
-                    </div>
+                <div className='flex justify-center'>
+    <motion.img
+        initial={{ x: 100, opacity: 0 }}
+        animate={{ x: 0, opacity: 1 }}
+        transition={{ duration: 1, delay: 1.2 }}
+        src={profilePic}
+        alt='La Pyae Min Khant'
+        className='w-64 h-64 lg:w-72 lg:h-72 object-cover rounded-lg shadow-lg hover:shadow-2xl'
+        />
+</div>
                 </div>
             </div>
         </div>

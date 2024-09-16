@@ -35,7 +35,7 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "Point of Sale System (Bankok Air Way)",
+    title: "Point of Sale System (Bangkok Air Way)",
     image: project1,
     description:
       "Developed a comprehensive Point of Sale (POS) system for a non-duty-free shop at Samui' airport, designed to streamline transactions and inventory management.",

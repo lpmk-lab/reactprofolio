@@ -30,7 +30,7 @@ const Education = () => {
                                     {education.Uni}
                                 </span>
                             </h6>
-                            <p className='mb-4 text-neutral-400'>{education.description}</p>
+                            <p className='mb-4 text-neutral-400 sm:text-justify'>{education.description}</p>
                             {education.technologies.map((tech, index) => (
                                 <span key={index}
                                     className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900'>{tech}</span>
